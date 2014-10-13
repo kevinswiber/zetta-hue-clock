@@ -22,5 +22,5 @@ module.exports = function(server) {
 };
 
 function getRandomColor() {
-  return 'hsl(' + Math.round(Math.random() * 360, 2) + ', 50%, 45%)';
+  return 'hsl(' + Math.round(Math.random() * 360, 2) + ', 75%, 45%)';
 }

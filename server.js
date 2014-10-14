@@ -1,10 +1,10 @@
 var zetta = require('zetta');
 var Hue = require('zetta-hue-driver');
 var Clock = require('./clock');
-var HueClock = require('./hue_clock');
+var HueClockScout = require('./hue_clock_scout');
 
 zetta()
   .use(Hue)
   .use(Clock)
-  .use(HueClock)
+  .use(HueClockScout)
   .listen(3000);
